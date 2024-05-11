@@ -1,8 +1,10 @@
 #!/bin/bash
 
 if [ "$#" -ne 2 ]; then
-        echo "Usage: $0 <filesdir> <searchstr>"
+        
+	echo "Usage: $0 <filesdir> <searchstr>"
         exit 1
+
 fi
 
 
